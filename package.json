@@ -3,7 +3,11 @@
   "description": "Batching functionality for CAP",
   "private": false,
   "license": "Apache-2.0",
-  "version": "0.2.5",
+  "version": "0.2.6",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gavdilabs/cap-batch.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
