@@ -1,5 +1,7 @@
 # @gavdi/cap-batch - Batch Query Utils for CAP NodeJS
 
+> NOTE: Version 1.0 is using CDS 8 and is not fully tested. Please report any issues you might find.
+
 A simple, yet effective way of batching requests from CAP to an OData API near you!
 
 ## What's In The Box?
