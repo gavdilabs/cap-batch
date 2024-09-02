@@ -1,4 +1,4 @@
-import { Request, Service } from "@sap/cds";
+import { Service, Request } from "@sap/cds";
 import axios, { AxiosRequestConfig } from "axios";
 import {
   BatchContentType,

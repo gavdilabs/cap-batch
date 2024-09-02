@@ -1,25 +1,25 @@
 {
-    "compilerOptions": {
-        //To force skipping node_modules exlude won´t do it
-        "lib": [
-            "ES2021",
-            "ES2021.String"
-        ],
-        "target": "ES2021",
-        "module": "NodeNext",
-        "declaration": true,
-        "outDir": "./dist",
-        "strict": true,
-        "esModuleInterop": true,
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "forceConsistentCasingInFileNames": false
-    },
-    "include": [
-        "src"
+  "compilerOptions": {
+    //To force skipping node_modules exlude won´t do it
+    "lib": [
+      "ES2021",
+      "ES2021.String"
     ],
-    "exclude": [
-        "node_modules",
-        "**/__tests__/*"
-    ]
+    "target": "ES2021",
+    "module": "NodeNext",
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": false,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": false
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/__tests__/*"
+  ]
 }
