@@ -3,7 +3,7 @@
   "description": "Batching functionality for CAP",
   "private": false,
   "license": "Apache-2.0",
-  "version": "1.2.6",
+  "version": "1.3.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/gavdilabs/cap-batch.git"
@@ -19,15 +19,15 @@
   "scripts": {
     "prebuild": "rm -rf dist",
     "build": "npm run prebuild && tsc --skipLibCheck",
-    "release": "npm run build && npm publish",
+    "release": "npm run build && npm publish --access public",
     "test": "jest --config jestconfig.json"
   },
   "peerDependencies": {
-    "@sap/cds": "^8.1.1",
+    "@sap/cds": "^9",
     "axios": "^1.6.7"
   },
   "devDependencies": {
-    "@cap-js/cds-types": "^0.6.5",
+    "@cap-js/cds-types": "^0.11.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^20.10.6",
     "jest": "^28.1.3",
